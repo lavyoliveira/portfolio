@@ -5,7 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function ContactBody() {
   return (
-    <main>
+    <main className="[&>*]:animate-fade-in-1.5">
       <section className="text-center text-sky-100">
         <h1 className="text-3xl font-montserrat mt-40 font-semibold">
           CONTACT

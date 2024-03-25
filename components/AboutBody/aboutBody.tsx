@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutBody() {
     return (
-        <main>
+        <main className='[&>*]:animate-fade-in-1.5'>
             <section className="text-center text-sky-100">
                 <h1 className="text-3xl font-montserrat mt-40 font-semibold">ABOUT</h1>
                 <h2 className="text-[50px] font-zilla font-bold leading-none my-14 max-w-7xl">A frontend developer who loves learning new technologies. GM in my spare time, RPGs and games are my everything.</h2>

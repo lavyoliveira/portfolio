@@ -1,18 +1,17 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
   const [linkActive, setLinkActive] = useState("/");
-  const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
-    const activeLink = router.pathname;
-    setLinkActive(activeLink);
-  }, [router.pathname]);
+    if (pathname !== null) setLinkActive(pathname);
+  }, [pathname]);
 
   return (
-    <header className="bg-black text-sky-100 pt-20 px-10 font-zilla font-bold text-[20px] w-full max-w-7xl">
+    <header className="bg-black text-sky-100 pt-20 px-10 font-zilla font-bold text-[20px] w-full max-w-7xl [&>*]:animate-fade-in-1.5">
       <nav className="flex justify-between container">
         <Link href="/" className={`transition duration-500 ease-in-out cursor-pointer ${
           linkActive === "/" ? "text-orange-500" : ""
