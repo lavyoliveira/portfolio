@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio v1.0
 
-## Getting Started
+<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-First, run the development server:
+> A React website for my first Portfolio.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📱 Screenshots of the real website.
+
+<img src="https://github.com/lavyoliveira/portfolio/assets/94937715/d7562932-a8b3-484b-8a46-d9928e5a12d8" width="500">
+
+## 🎨 Figma prototype
+
+* <a href="https://www.figma.com/file/YSvUEmxV1gITga2KIkmogL/Untitled?type=design&node-id=0%3A1&mode=dev&t=DK51I9UtO8DJqIlg-1">Link</a>
+
+### What is already done?
+
+Tasks made:
+
+- [x] Screen design
+- [x] Front-end of all screens
+- [x] Animations
+- [ ] All projects
+- [ ] Using github api to show projects dinamically
+
+## 💻 Wanna execute?
+
+Before starting, check if you atend on the following requirements: 
+<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+* You've installed the updated version of ` Node`
+* You have a `Windows / Mac / Linux`.
+
+## 🚀 Installing my Portfolio
+
+To install my Portfolio, follow the steps:
+
+Windows:
+```
+Do a fork of the repository and download it
+Go on terminal and type "npm install" to download the dependencies
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ☕ Using my Portfolio
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To use my Portfolio, follow the steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+Go on terminal and type "npm run build" first, then type "npm run dev" to open the sever on localhost:3000 in your browser.
+```
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[⬆ Voltar ao topo](#nome-do-projeto)<br>
