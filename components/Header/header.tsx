@@ -11,7 +11,7 @@ export default function Header() {
   }, [pathname]);
 
   return (
-    <header className="bg-black text-sky-100 pt-20 px-10 font-zilla font-bold text-[20px] w-full max-w-7xl [&>*]:animate-fade-in-1.5">
+    <header className="bg-black text-sky-100 pt-20 px-10 font-zilla font-bold text-[20px] w-full max-w-7xl">
       <nav className="flex justify-between container">
         <Link href="/" className={`transition duration-500 ease-in-out cursor-pointer ${
           linkActive === "/" ? "text-orange-500" : ""

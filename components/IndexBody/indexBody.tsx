@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function IndexBody() {
     return (
-        <main className="[&>*]:animate-fade-in-1.5">
+        <main className="[&>*]:animate-fade-in-1.5 relative z-10">
             <section className="text-center text-sky-100">
                 <h1 className="text-3xl font-montserrat mt-28"><span className="font-extrabold">HI! </span>MY NAME IS</h1>
                 <h2 className="text-[140px] font-zilla font-bold leading-none">Lavynia</h2>
